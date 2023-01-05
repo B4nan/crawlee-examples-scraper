@@ -1,0 +1,32 @@
+{
+    "title": "Crawlee Examples",
+    "actorSpecification": 1,
+    "views": {
+        "results": {
+            "title": "Crawlee Examples",
+            "transformation": {
+                "fields": [
+                    "url",
+                    "title",
+                    "createdAt"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "url": {
+                        "label": "URL",
+                        "format": "link"
+                    },
+                    "title": {
+                        "label": "Page title"
+                    },
+                    "createdAt": {
+                        "label": "Created at",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    }
+}

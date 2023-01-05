@@ -1,0 +1,14 @@
+{
+    "title": "Crawlee Examples scrapers",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "maxRequestsPerCrawl": {
+            "title": "maxRequestsPerCrawl",
+            "description": "Limits the maximum processed requests per crawl",
+            "type": "integer",
+            "editor": "number",
+            "prefill": 10
+        }
+    }
+}

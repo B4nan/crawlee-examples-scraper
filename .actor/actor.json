@@ -1,0 +1,12 @@
+{
+	"name": "crawlee-docs-test",
+	"version": "0.0",
+    "actorSpecification": 1,
+	"buildTag": "latest",
+	"env": null,
+	"template": "project_cheerio_crawler_js",
+    "input": "./input-schema.json",
+    "storages": {
+        "dataset": "./dataset-schema.json"
+    }
+}
